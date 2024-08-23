@@ -1,0 +1,56 @@
+body{
+  padding: 25px;
+}
+h1{
+    color: rgb(188, 11, 11);
+}
+p{
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+span{
+    margin-left: 10px;
+}
+.tickSign{
+    color: green;
+}
+.crossSign{
+    color: red;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.boxdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgba(137, 3, 3, 0.871);
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(240, 175, 78);
+    box-shadow: 5px 5px 5px 2px inset rgba(220, 24, 24, 0.712);
+    text-align: center;
+    overflow: hidden;
+    font-size: 34px;
+    padding: 40px 20px 5px 10px;
+}
+.txtcol{
+    color: rgb(10, 6, 226);
+}
+img{
+     width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
